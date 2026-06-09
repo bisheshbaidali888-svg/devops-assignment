@@ -28,29 +28,29 @@ kubectl apply -f k8s/namespace.yaml
 kubectl apply -f k8s/secrete.yaml
 kubectl apply -f k8s/Deployment.yaml
 kubectl apply -f k8s/Service.yaml
-<br>
+
 # Deployment Steps
 Kubernetes Resources Created:
 Namespace: dev
 Secret: app-secret (APP_NAME, APP_ENV)
 Deployment: 2 replicas of the application
 Service: ClusterIP on port 80
-<br>
+
 # Results 
 Namespace dev: Active
 Pods: 2/2 Running
 Deployment: 2/2 Available
 Service: ClusterIP created
 Secret: app-secret created
-<br>
+
 # GitHub Actions CI/CD
 Workflow triggers on every push to main branch:
 Builds Java application with Maven
 Builds Docker image
 Pushes image to Docker Hub (bisheshbaidali/demo:latest)
 Note: Kubernetes deployment done locally using Minikube.
- <br>
- Note: <strong> Github action ma kubernetes deploy step hatako xu kina vanne
+ 
+ Note: Github action ma kubernetes deploy step hatako xu kina vanne
  github action cloud ma run hunxa 
-  </strong>
+  
   But maro minikube chai local machine ma run vako xa 
