@@ -32,9 +32,4 @@ jobs:
         docker build -t bisheshbaidali/demo:latest .
         docker push bisheshbaidali/demo:latest
 
-    - name: Deploy to Kubernetes
-      run: |
-        kubectl apply -f k8s/namespace.yaml
-        kubectl apply -f k8s/secret.yaml
-        kubectl apply -f k8s/deployment.yaml
-        kubectl apply -f k8s/service.yaml
+   
