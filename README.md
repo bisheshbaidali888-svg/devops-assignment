@@ -53,4 +53,4 @@ Note: Kubernetes deployment done locally using Minikube.
  Note: Github action ma kubernetes deploy step hatako xu kina vanne
  github action cloud ma run hunxa 
   
-  But maro minikube chai local machine ma run vako xa 
+ *** But maro minikube chai local machine ma run vako xa ***
