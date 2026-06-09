@@ -1,6 +1,7 @@
 #Devops Intenship Assignment
 
 ##Objective
+
 Deploy a java Spring Boot application on K8s & automate the deployment using Git Actions.
 #Project Structure
 devops-assignment/
